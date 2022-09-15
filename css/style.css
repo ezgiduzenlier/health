@@ -1,0 +1,259 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Rancho&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 4%;
+}
+.navbar .logo img{
+    width: 90px;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 25px;
+    color: rgb(130, 24, 24);
+    font-weight: 600;
+    font-size: 18px;
+}
+nav ul li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+nav li a{
+    color: rgb(130, 24, 24);
+}
+nav{
+    margin-right: 35%;
+}
+.icon i{
+    font-size: 25px;
+    color: rgb(130, 24, 24);
+    cursor: pointer;
+}
+.login{
+    display: inline-block;
+    margin-right: 25px;
+    color: rgb(130, 24, 24);
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 2px;
+}
+.login:hover{
+    text-decoration: underline;
+    color: rgb(130, 24, 24);
+    cursor: pointer;
+}
+
+/* MIX-BLEND-MODE*/
+.row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+col-6{
+    flex-basis: 50%;
+}
+.container .box{
+    width: 500px;
+    height: 500px;
+    margin-top: -60px;
+    position: relative;
+}
+
+.container .box img{
+    object-fit: cover;
+   /* width: 100%; bazı fotolarda bunu yazmazsan tam yerleşmiyo  */
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    mix-blend-mode: screen;
+}
+.container .box video{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+.col-6 h1{
+    font-size: 2,5rem;
+    color: rgb(130, 24, 24);
+}
+.col-6 span{
+    font-size: 4rem;
+    color: rgb(130, 24, 24);
+    margin-left: 10%!important;
+    line-height: 50px;
+    margin :20px 0;
+}
+.col-6 p{
+    margin: 20px 0;
+    font-size:1 rem ;
+}
+.buton{
+    display: inline-block;
+    color: white;
+    background-color:rgb(130, 24, 24);
+    margin-left: 60%;
+    width: 100px;
+    height: 35px;
+    border-radius: 30px;
+    text-align: center;
+    padding: 6px 12px;
+}
+
+/* LOGIN PAGE */
+
+.loginBox1{
+    width: 280px;
+    padding: 20px;
+    position: absolute;
+    top: 32%;
+    left: 55%;
+}
+.loginBox1:hover{
+    border: 1px solid rgb(155, 72, 72);
+}
+.loginBox1 img{
+    width: 100%;
+    overflow: hidden;
+    opacity: 0.1;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.loginBox1 h1{
+    float: left;
+    color: rgb(130, 24, 24);
+    border-bottom: 3px solid rgb(130, 24, 24);
+    padding: 12 0;
+    margin-bottom: 70px;
+    font-size: 30px;
+}
+.loginBox1 .textBox1{
+    padding: 8 0;
+    margin: 5 0;
+    width: 100%;
+    font-size: 15px;
+    overflow: hidden;
+    border-bottom: 2px solid rgb(130, 24, 24);
+}
+.textBox1 icon{
+    float: left;
+    color: black;
+    font-size: 25px;
+    text-align: center;
+}
+.textBox1 input{
+    border: none;
+    background: none;
+    padding: 0 8;
+    outline: none;
+}
+.loginBox1 .btn{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(130, 24, 24);
+    color: white;
+    font-size: 16px;
+    border-radius: 7px;
+    padding: 0 15;
+    text-align: center;
+    margin-top: 6px;
+}
+
+.loginBox2{
+    width: 280px;
+    padding: 20px;
+    position: absolute;
+    top: 32%;
+    left: 20%;
+}
+.loginBox2:hover {
+    border: 1px solid rgb(155, 72, 72);
+}
+.loginBox2 img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    opacity: 0.1;
+    position: absolute;
+    top: 0;
+    left: 0%;
+}
+.loginBox2 .btn{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(130, 24, 24);
+    color: white;
+    font-size: 16px;
+    border-radius: 7px;
+    padding: 0 15;
+    text-align: center;
+    margin-top: 6px;
+}
+.loginBox2 h1{
+    float: left;
+    color: rgb(130, 24, 24);
+    border-bottom: 3px solid rgb(130, 24, 24);
+    padding: 12 0;
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+.loginBox2 .textBox2{
+    padding: 8 0;
+    margin: 5 0;
+    width: 100%;
+    font-size: 15px;
+    overflow: hidden;
+    border-bottom: 2px solid rgb(130, 24, 24);
+}
+.textBox2 input{
+    border: none;
+    background: none;
+    padding: 0 8;
+    outline: none;
+}
+.login .endBtn{
+    width: 56%;
+    height: 30px;
+    background-color: rgb(130, 24, 24);
+    color: white;
+    font-size: 14px;
+    border-radius: 7px;
+    border:none;
+    padding: 0 15;
+    text-align: center;
+    margin-top: 6px;
+    position: absolute;
+    bottom: 13%;
+    left:20%;
+}
